@@ -59,7 +59,7 @@ if not GROQ_API_KEY:
 # LLM - original model kept
 # =========================
 llm = ChatGroq(
-    model="llama-3.3-70b-versatile",
+    model="openai/gpt-oss-120b",
     api_key=GROQ_API_KEY,
 )
 
@@ -190,7 +190,7 @@ User request:
 
     if not allowed:
         reason = guardrail_reason or (
-            "TripMate AI can only help with travel-planning requests. "
+            "TripByKesAI can only help with travel-planning requests. "
             "Please ask about a destination, flight, hotel, weather, budget, "
             "or itinerary."
         )
