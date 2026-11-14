@@ -390,9 +390,6 @@ The project demonstrates how multiple specialized agents can collaborate under a
 
 This project follows the license specified in the original repository's `LICENSE` file.
 
-## Acknowledgements
-
-Thanks to the original repository author, **[entbappy](https://github.com/entbappy)**, for the project implementation and learning resources.
 
 ---
 
